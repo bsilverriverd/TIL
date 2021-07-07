@@ -27,4 +27,4 @@ file을 전송하는 중에 disconnect되거나 server나 client가 죽으면 �
 같은 파일에 대한 get와 put이 동시에 일어난다면?(maybe lock? or inotify를 통해 파일이 열려있는 상태를 미리 파악해 대비, 사용자에게 어떻게 할건지 물어보게 하는게 베스트)
 
 
-3. 
+3. 뭐 적으려고 했는데 기억이 안나네..
