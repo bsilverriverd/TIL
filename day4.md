@@ -1,9 +1,13 @@
 #sysprog - dsh
 ###2021-07-09
 1. overview
+
 *super putty와 유사한 프로그램이다.
+
 *server에 client가 접속하면 server에서 client의 terminal을 remote control할 수 있다.
+
 *ui thread에서 키보드 인풋을 받고 어떤 client로 명령어를 보내고 결과값을 받아 화면에 출력할 것인지 정한다.
+
 *ctrl^c 를 누르면 client를 바꾼다.
 
 2. 소감
