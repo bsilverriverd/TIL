@@ -5,11 +5,11 @@
 - sections: provide a linking view of the object file
 - segments: group of sections and provide an executable view of the object file
 
-보통 ELF file의 구조 (ELF header만 고정적이고 다른 부분은 파일마다 배열이 다를 수도 있다고 함)
-ELF header
-Program header table
-sections
-section header table
+보통 ELF file의 구조  (ELF header만 고정적이고 다른 부분은 파일마다 배열이 다를 수도 있다고 함)  
+ELF header  
+Program header table  
+sections  
+section header table  
 
 - String table: stored null-terminates character sequences. used to represent section names
 
@@ -18,8 +18,7 @@ section header table
 
 2. entry.S
 
-enables paging and creates the first page directory(changes address mode), then jumps to main
-
+enables paging and creates the first page directory(changes address mode), then jumps to main  
 controls 3 control registers
 
 - CR4: set PSE bit to increase page size to 4MiB
