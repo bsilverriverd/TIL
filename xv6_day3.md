@@ -18,6 +18,8 @@ asm asm-qualifiers ( AssemblerTemplate  // assembly code 에 해당하는 부분
                       : Clobbers  // Output 이외에 AssemblerTemplate이 변환할 register나 value등을 담은 comma seperated list(생략가능)
                       : GotoLabels)  // goto 형식의 asm를 사용할 때 goto가능한 모든 C label을 담은 list
 
+[reference](https://gcc.gnu.org/onlinedocs/gcc/Extended-Asm.html#Extended-Asm)
+
 3. 느낀 점
 
 Variadic functions를 보면서 C에 대해 아직 잘 모르는 것도 많구나 느꼈다.   
