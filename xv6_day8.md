@@ -14,7 +14,7 @@ xv6에서는 errno가 따로 없는 듯 하여 포인터로 반환하도록 함.
 int setpriority(int pid, int prio): process 'pid'의 priority를 prio로 설정. pid가 0인 경우 current process의 priority를 설정.  
 성공하면 0을 return. ptable에 pid가 없거나, prio가 out of range이거나 기타 에러가 발생하면 -1을 return 한다.
   
-2. Strict(fixed) priority scheduling vs soft priority scheduling
+2. Strict(fixed) priority scheduling vs soft priority scheduling  
 Strict priority scheduling과 달리 soft priority scheduling에서는 low priority process들이 starve하는 경우를 해소시키고자 이들의 priority를 높이는 일을 한다.  
 하지만 이 경우 priority 자체를 설정하는게 무의미해질 수 있기 때문에 보통 priority를 일시적으로 boost 해주고 다시 원래 priority로 복구하는 방식을 씉다고 함.  
 
